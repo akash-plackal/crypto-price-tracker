@@ -6,7 +6,7 @@
 .coin-row {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   height: 5rem;
   border-bottom: 1px solid #d7d7d7;
@@ -65,4 +65,43 @@
 
 .green {
   color: #11d811;
+}
+
+@media (orientation: portrait) {
+  .coin-container {
+    max-width: 95vw;
+  }
+
+  .coin-row {
+    padding-right: 0.4rem;
+  }
+
+  .coin-container h1 {
+    display: none;
+  }
+
+  .coin-volume {
+    display: none;
+  }
+
+  .coin-marketcap {
+    display: none;
+  }
+
+  .coin {
+    width: 40%;
+
+    min-width: 0;
+    padding-right: 0;
+  }
+
+  .coin-data {
+    width: 50%;
+  }
+
+  /* .coin-price {
+  }
+
+  .coin-percent {
+  } */
 }

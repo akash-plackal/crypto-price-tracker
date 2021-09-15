@@ -10,7 +10,7 @@ const Coin = (props) => {
         <div className="coin">
           <img src={image} alt="coin logo" />
           <h1>{name}</h1>
-          <p>{symbol}</p>
+          <p className="coin-symbol">{symbol}</p>
         </div>
         <div className="coin-data">
           <p className="coin-price">${price.toLocaleString()}</p>
