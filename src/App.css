@@ -25,6 +25,11 @@
   align-content: center;
 }
 
+.coin-search h1 {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
 .coin-text {
   margin-bottom: 32px;
   text-align: center;
