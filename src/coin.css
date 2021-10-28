@@ -18,7 +18,7 @@
   align-items: center;
   padding-right: 1.5rem;
 
-  min-width: 18.75rem;
+  /* min-width: 18.75rem; */
 }
 
 .coin h1 {
@@ -90,8 +90,6 @@
 
   .coin {
     width: 40%;
-
-    min-width: 0;
     padding-right: 0;
   }
 
