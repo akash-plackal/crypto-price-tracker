@@ -10,6 +10,11 @@
   overflow: auto;
 }
 
+body {
+  height: 100vh;
+  overflow: auto;
+}
+
 .coin-app {
   display: flex;
   flex-direction: column;
