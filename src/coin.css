@@ -19,8 +19,6 @@
   display: flex;
   align-items: center;
   padding-right: 1.5rem;
-
-  /* min-width: 18.75rem; */
 }
 
 .coin h1 {
@@ -69,9 +67,10 @@
   color: #11d811;
 }
 
-@media (orientation: portrait) {
+@media (max-width: 450px) {
   .coin-container {
     max-width: 95vw;
+    height: auto;
   }
 
   .coin-row {
